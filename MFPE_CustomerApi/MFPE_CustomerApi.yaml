@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: mfpecustomerapirepos
-        image: retailbankingsystemcr.azurecr.io/mfpecustomerapirepos:latest
+        image: mansiretailbankingcr.azurecr.io/mfpecustomerapirepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: dnsn
+      - name: dsconfigsn1
 
 ---
 apiVersion: v1
